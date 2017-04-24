@@ -1,0 +1,36 @@
+body {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.root {
+  display: inline-block;
+  margin: 100px;
+  position: relative;
+  background: #ddd;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px;
+  border: solid 2px;
+}
+
+
+.showMore, .hideMore, .showOther, .hideOther {
+  color: #ff0000;
+  padding: 20px;
+  border: solid 1px;
+}
+
+.other {
+  position: absolute;
+  top: 250px;
+  left: 300px;
+  background: #abffff;
+}
